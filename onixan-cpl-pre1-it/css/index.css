@@ -1,0 +1,165 @@
+/* ::::: http://179523.selcdn.com/landings-production/1420/css/reset.css ::::: */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0px;
+    padding: 0px;
+    border: 0px none;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0px;
+    vertical-align: baseline;
+    outline: none;
+}
+
+button, input {
+    line-height: normal;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0px none;
+    padding: 0px;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+}
+
+input[type="hidden"] {
+    display: none;
+}
+a {
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/* TIMER */
+.cta .time-block {
+    color: white;
+}
+.time-block {
+    width: 50%;
+    padding: 14px 0 0;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+.block-13 .time-block {
+    width: 100%;
+    padding: 25px 0;
+}
+
+.time-title {
+    margin: 0 auto;
+    padding: 0 0 13px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    text-align: left;
+}
+
+.block-13 .time-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #666666;
+    padding: 0;
+}
+
+.time-title span {
+    color: #EC6319;
+    font-size: 26px;
+    line-height: 32px;
+}
+
+.time-remain {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+    margin: 0 auto;
+    letter-spacing: 0.04em;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0696B5;
+}
+
+.block-13 .time-remain {
+    justify-content: center;
+}
+
+.block-13 .hour,
+.block-13 .minutes,
+.block-13 .seconds {
+    font-size: 28px;
+    line-height: 33px;
+}
+
+.time-remain-items {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.hour,
+.minutes,
+.seconds {
+    font-family: "Open Sans", sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.time-dots {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    margin: 0 28px;
+}
+
+.footer-wrap {
+    margin: 0 auto;
+    max-width: 1170px;
+}
+.footer-wrap p {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+}
+
+.block-13 .time-dots {
+    margin: 0 15px;
+}
+
+.time-remain-name {
+    font-size: 8px;
+    line-height: 11px;
+}
+  
